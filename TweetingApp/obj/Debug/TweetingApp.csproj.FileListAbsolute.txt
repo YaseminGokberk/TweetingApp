@@ -1,0 +1,444 @@
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\ApplicationInsights.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csc.exe
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\vbc.exe
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\TweetingApp.dll.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\TweetingApp.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\TweetingApp.pdb
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Antlr3.Runtime.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\EntityFramework.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Newtonsoft.Json.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Owin.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Helpers.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Mvc.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Optimization.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Razor.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\WebGrease.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Helpers.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Mvc.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Optimization.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.Razor.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Antlr3.Runtime.pdb
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Newtonsoft.Json.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\EntityFramework.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\obj\Debug\TweetingApp.csprojResolveAssemblyReference.cache
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\obj\Debug\TweetingApp.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\obj\Debug\TweetingApp.pdb
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Autofac.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.Disposables.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Net.Http.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Reflection.TypeExtensions.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Controllers.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Core.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Credentials.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Factories.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Logic.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Security.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.Streams.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Tweetinvi.WebLogic.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Autofac.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Nito.Disposables.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csc.exe.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csc.rsp
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csi.exe
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csi.exe.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\csi.rsp
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.AppContext.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Console.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Threading.Thread.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\vbc.exe.config
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\roslyn\vbc.rsp
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Collections.Immutable.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Collections.Immutable.xml
+C:\Users\yasem\Desktop\Bimser      Calisma\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\ApplicationInsights.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.exe
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.exe.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.rsp
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.exe
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.exe.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.rsp
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.AppContext.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Console.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Threading.Thread.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.exe
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.exe.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.rsp
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.dll.config
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.pdb
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Antlr3.Runtime.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Autofac.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Newtonsoft.Json.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.Disposables.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Owin.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Collections.Immutable.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Net.Http.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Reflection.TypeExtensions.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Helpers.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Mvc.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Optimization.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Razor.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Controllers.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Core.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Credentials.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Factories.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Logic.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Security.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Streams.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.WebLogic.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\WebGrease.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Antlr3.Runtime.pdb
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Autofac.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Newtonsoft.Json.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.Disposables.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Collections.Immutable.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Helpers.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Mvc.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Optimization.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Razor.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.csprojResolveAssemblyReference.cache
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.dll
+C:\Users\yasem\Desktop\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.pdb
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\ApplicationInsights.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.exe
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.exe.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csc.rsp
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.exe
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.exe.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\csi.rsp
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.AppContext.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Console.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.Compression.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.IO.Pipes.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Claims.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Threading.Thread.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.ValueTuple.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.exe
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.exe.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\vbc.rsp
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.dll.config
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\TweetingApp.pdb
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Antlr3.Runtime.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Autofac.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Newtonsoft.Json.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.Disposables.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Owin.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Collections.Immutable.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Net.Http.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Reflection.TypeExtensions.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Algorithms.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Encoding.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.Primitives.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Helpers.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Mvc.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Optimization.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Razor.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Controllers.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Core.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Credentials.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Factories.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Logic.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Security.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.Streams.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Tweetinvi.WebLogic.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\WebGrease.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Runtime.Serialization.Primitives.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Antlr3.Runtime.pdb
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Autofac.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.Web.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AI.WindowsServer.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.ApplicationInsights.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Newtonsoft.Json.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Context.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.AsyncEx.Tasks.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Nito.Disposables.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Collections.Immutable.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Helpers.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Mvc.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Optimization.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.Razor.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Deployment.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\System.Web.WebPages.Razor.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\EntityFramework.SqlServer.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.csprojResolveAssemblyReference.cache
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.dll
+D:\Bilişim Sistemleri M\Bimser Proje\TweetingApp\TweetingApp\obj\Debug\TweetingApp.pdb

@@ -1,0 +1,96 @@
+﻿@model TweetingApp.Models.AnasayfaModel
+@{
+    ViewBag.Title = " " + Model.User.Name + " (@" + Model.User.ScreenName + ") | Twitter Tarafından Takip Edilen Kişiler";
+}
+
+<br />
+<div class="row">
+    <br />
+    @*1.Sutun*@
+    <div class="col-xs-6 col-lg-3" style="background-color:white">
+
+        <div class="list-group" style="background-color:white">
+            <center>
+                <table>
+                    <tr>
+                        <div class="flex-module-header;list-group-item;form-inline">
+                            <br />
+                            <span class="trend-location js-trend-location" style="font-size:18px">Gündem</span>
+                            <span class="middot" area-hidden="true">.</span>
+
+
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:13px"> Degistir</span></span>
+                            </a>
+                        </div>
+                    </tr>
+                </table>
+            </center>
+
+      </div>
+            @foreach (Tweetinvi.Models.ITrend item in Model.Trendler)
+    {
+
+
+        <a href="/Home/Gundem?query=@item.Query" class="list-group-item" style="border-style:none;font-style:unset;font-family:'Arial Rounded MT'; color:#00a0d1">
+            <b>@item.Name</b>
+            @item.PromotedContent
+        </a>
+
+    }
+
+    </div>
+
+    @*2.sutun*@
+
+    <div class="col-xs-6 col-lg-9" >
+
+       
+            
+                
+                    
+                @foreach (Tweetinvi.Models.IUser item in Model.Following)
+                {
+
+                    <div class="col-xs-6 col-md-4">
+                        <div class="well" style="width:250px;height:370px">
+
+                            <img src="@item.ProfileBannerURL" class="img-rounded" width="208" height="100"></img>
+                            <a href="#"> <img class="img-circle" src="@item.ProfileImageUrl" data-holder-rendered="true" style="width:70px;height:70px;position:absolute;top:75px;left:50px" usemap="#planetmap"></a>
+                            <br /><br /><br />
+                            <a href="/Home/Profil/@item.ScreenName" class="list-group-item;form-inline" style="background-color :transparent;color:black;font-size:16px;border-style:none"><b>@item.Name</b></a>
+                            <a href="/Home/Profil/@item.ScreenName" class="list-group-item" style="background-color:transparent;font-size:11px;border-style:none">@item.ScreenName</a>
+                            <a  class="list-group-item" style="background-color:transparent;font-size:11px;border-style:none">@item.Description</a>
+                            <br>
+                           
+                           
+                            <script>
+                        function first(x) {
+                            x.style.display="Takip ediliyor";
+                       
+                                                        }
+        
+                        function then(x) {
+                        x.style.display = "Takibi bırak";
+                           
+                                                    }
+                            </script>
+                            
+                            <button type="button"  class="btn btn-default"  onmouseover="first(this)" onmouseout="then(this)" style="font-style:unset;font-family:'Arial Rounded MT'"></button>
+
+
+                        </div>
+                    </div>
+
+
+
+                }
+               
+             
+</div>
+
+    </div>
+
+
+
+    

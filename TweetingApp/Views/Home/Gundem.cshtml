@@ -1,0 +1,271 @@
+﻿@model TweetingApp.Models.AnasayfaModel
+@{
+    ViewBag.Title = "Gundem";
+}
+<style>
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #00a0d1;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Yukarı çık"><span class="glyphicon glyphicon-menu-up" style="font-size:20px"></span></button>
+<br />
+<div class="row">
+    <br />
+    @*1.Sutun*@
+    <div class="col-xs-3" style="background-color:white">
+
+        <div class="list-group" style="background-color:white" >
+
+            <table>
+                <tr>
+                    <div class="flex-module-header;list-group-item;form-inline">
+                        <br />
+                        <center>
+                            <span class="trend-location js-trend-location" style="font-size:18px">Gündem</span>
+                            <span class="middot" area-hidden="true">.</span>
+
+
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:13px"> Degistir</span></span>
+                            </a>
+                        </center>
+                    </div>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+
+        @{
+
+            foreach (Tweetinvi.Models.ITrend item in Model.Trendler)
+            {
+
+
+                <a href="/Home/Gundem?query=@item.Query" class="list-group-item" style="border-style:none;font-style:unset;font-family:'Arial Rounded MT'; color:#00a0d1">
+                    <b>@item.Name</b>
+                    @item.PromotedContent
+                </a>
+
+            }
+
+
+
+        }
+    </div>
+
+        @*2.sutun*@
+
+        <div class="col-xs-9" style="border-style:none;">
+           
+            @{
+
+                foreach (Tweetinvi.Models.IUser item in Model.Gundem_Kullanici)
+                {
+                    if (item == null)
+                    {
+                        break;
+                    }
+                    else
+                    {
+
+                        foreach (Tweetinvi.Models.IUser item1 in Model.Gundem_Kullanici)
+                        {
+                            if (item1.ProfileBannerURL == null)
+                            {       
+                    <div class="col-xs-6 col-md-4" style="top:30px;">
+                    <div class="well" style="width:250px;height:360px;background-color:white">
+
+                    <img style="background-color:#0094ff" class="img-rounded" width="208" height="100"></img>
+                    <a href="/Home/Profil/@item1.ScreenName"> <img class="img-circle" src="@item1.ProfileImageUrl" data-holder-rendered="true" style="width:70px;height:70px;position:absolute;top:75px;left:50px" usemap="#planetmap"></a>
+                    <br /><br /><br />
+                    <a href="/Home/Profil/@item1.ScreenName"><button class="list-group-item;form-inline" style="border-style:none;background-color :transparent;color:black;font-size:16px;border-style:none"><b>@item1.Name</b></button></a>
+                    <a href="/Home/Profil/@item1.ScreenName"> <button class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item1.ScreenName</button></a>
+                    <label href="#" class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item1.Description</label>
+
+                    <button type="submit" title="@item1.Following?" Takip ediliyor":"Takip et")" class="btn btn-@(item1.Following ? "info" : "default")" onclick="SendRequest('@Url.Action("takip_kontrol", "Home")',{friendId:'@item1.Id'})" style="font-style:unset;font-family:'Arial Rounded MT'">Takip Et</button>
+
+
+                </div>
+            </div>
+                                break;
+                            }
+
+                    <div class="col-xs-6 col-md-4" style="top:30px;">
+                        <div class="well" style="width:250px;height:360px;background-color:white">
+
+                            <img src="@item1.ProfileBannerURL" class="img-rounded" width="208" height="100"></img>
+                            <a href="/Home/Profil/@item1.ScreenName"> <img class="img-circle" src="@item1.ProfileImageUrl" data-holder-rendered="true" style="width:70px;height:70px;position:absolute;top:75px;left:50px" usemap="#planetmap"></a>
+                            <br /><br /><br />
+                            <a href="/Home/Profil/@item1.ScreenName"><button class="list-group-item;form-inline" style="border-style:none;background-color :transparent;color:black;font-size:16px;border-style:none"><b>@item1.Name</b></button></a>
+                            <a href="/Home/Profil/@item1.ScreenName"> <button class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item1.ScreenName</button></a>
+                            <label href="#" class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item1.Description</label>
+
+                            <button type="submit" title="@item1.Following?" Takip ediliyor":"Takip et")" class="btn btn-@(item1.Following ? "info" : "default")" onclick="SendRequest('@Url.Action("takip_kontrol", "Home")',{friendId:'@item1.Id'})" style="font-style:unset;font-family:'Arial Rounded MT'">Takip Et</button>
+
+
+                        </div>
+                    </div>
+
+                        }
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        break;
+
+                    }
+                }
+            } 
+
+                    <div class="well well-sm" style="top:20px">
+
+                        @*akıstakı tweetler*@
+                        <br /><br />
+                      
+                        @{foreach (Tweetinvi.Models.ITweet item2 in Model.Gundem_Tweets)
+                            {
+
+                                <form class="form-inline" style="background-color:white">
+                                    <div class="form-group">
+                                        <a href="/Home/Profil/@item2.CreatedBy.ScreenName"> <img data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 60px; height: 60px;" src="@item2.CreatedBy.ProfileImageUrl" data-holder-rendered="true"></a>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="list-group" style="font-size:10px;">
+                                            <br />
+                                            <a href="/Home/Profil/@item2.CreatedBy.ScreenName" style="background-color:transparent;color:black;font-size:15px">@item2.CreatedBy.Name</a>
+                                            <text style="background-color:transparent;color:lightslategray;font-size:13px">@item2.CreatedBy.ScreenName</text>
+                                           
+                    </div>
+                                        <div><label style="font-size:13px;"> &nbsp;  @item2.Text</label></div> 
+                                    </div>
+                                    <div>
+
+                                        <button class="nav nav-pills" role="tablist" style="border-style:none;background-color:transparent">
+
+                                            <!---reply butonu-->
+                                            <!-- Trigger the modal with a button -->
+                                           
+
+                                            <button type="button" class="btn btn-default" style="border-style:none; top:-38px; left:83px" onclick="ReplyModal('@item2.Id','@item2.CreatedBy.ScreenName','@item2.Text','@item2.CreatedBy.ProfileImageUrl')"><span class="glyphicon glyphicon-comment" aria-hidden="true"> </span></button>
+
+                                            <button style="border-style:none" class="btn btn-@(item2.Retweeted ? "danger" : "default")" onclick="SendRequest('@Url.Action("retweet", "Home")',{tweetId:'@item2.Id'})"><span class="glyphicon glyphicon-retweet" aria-hidden="true"> @item2.RetweetCount</span></button>
+                                            <button style="border-style:none" class="btn btn-@(item2.Favorited ? "danger" : "default") " onclick="SendRequest('@Url.Action("Fav", "Home")',{twitId:'@item2.Id'})"> <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"> @item2.FavoriteCount</span></button>
+                                            <a href="http://localhost:54469/Home/Mesajlar" style="align-content:center;width:auto;height:auto;border-style:none" class="btn btn-default">
+                                                <button type="button" class="btn btn-default" onclick="SendRequest('@Url.Action("Mesajlar", "Home")'" style="border-style:none;top:-35px;left:75px;align-content:left;width:auto;height:auto">
+
+                                                    <span class="glyphicon glyphicon-envelope" style="width:10px;height:10px;align-content:center" aria-hidden="true"></span>
+
+                                                </button>
+                                            </a>
+
+                                        </button>
+                                        <hr />
+
+                                    </div>
+                                
+                                </form>
+
+                            }
+                        }
+                        <!-- Modal -->
+                        <div class="modal fade" id="Modal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title" style="font-style:unset;font-family:'Arial Rounded MT'"><center><strong id="ReplayUserName"></strong> <strong> adlı kullanıcıya yanıt olarak</strong></center></h4>
+                                        <hr />
+                                        <div class="form-group">
+                                            <img id="ReplayuserImage" data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 60px; height: 60px;" src="" data-holder-rendered="true"></a>
+                                        </div>
+                                        <h4 class="modal-title" style="font-style:unset;font-family:'Arial Rounded MT'"><center><text id="ReplaytweetText"></text></center></h4>
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <form class="form-inline" style="background-color:white">
+
+                                            <br />
+                                            <div class="form-group">
+
+
+
+
+                                                <div class="modal-content" style="border-width:2px">
+                                                    <strong id="ReplayUserName" title="ReplayUserName"></strong> &nbsp; yanıt olarak:
+                                                    @Html.Hidden("txtReplayTweetId", null)
+
+                                                </div>
+                                                <div><center>@Html.TextArea("txtReplayTweet", null, new { @class = "form-control" })</center> </div>
+
+                                            </div>
+                                        </form>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" onclick="ReplyTweet('@Url.Action("Tweet_Yanitla", "Home")',{text:'txtReplayTweet'}))">Yanıtla</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+    </div>
+
+
+
+    </div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>

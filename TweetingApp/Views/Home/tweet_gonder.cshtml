@@ -1,0 +1,27 @@
+﻿@model TweetingApp.Models.AnasayfaModel
+@{
+    ViewBag.Title = "tweet_gonder";
+}
+
+<br />
+<h2>Tweet Yazmaya Başla!</h2>
+
+<br />
+@*tweet atma kutusu*@
+
+@using (Html.BeginForm("tweet_yazdir","Home")) { 
+
+<div class="form-group">
+    <center>
+        <div class="form-inline">
+            <img data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 50px; height: 50px;" src="@Model.User.ProfileImageUrl" data-holder-rendered="true">
+            @Html.TextArea("Gonderi",null,new {@class ="form-control"} )
+        </div>
+
+
+        <button type="submit" class="btn btn-default" style="font-size:12px; border-style:none; background-color:lightskyblue">Tweetle</button>
+    </center>
+
+</div>
+
+}

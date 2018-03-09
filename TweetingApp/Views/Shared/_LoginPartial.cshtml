@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+
+
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right" >
+
+
+        <li style="top:-5px">
+
+            @using (Html.BeginForm("Gundem", "Home"))
+                {
+                <br />
+
+
+                <div>
+                    <center>
+                        <table>
+                            <tr height="60" border-style:none>
+
+                                <td>
+
+
+                                    @Html.TextBox("query", null, new { @class = "form-control" }) @*type="text" class="form-control" placeholder="Twitter'da ara">*@
+                                <td>
+                                    <button type="submit" class="btn btn-default" ><span class="glyphicon glyphicon-search" onclick="location.href='@Url.Action("Gundem", "Home")'"></span></button>
+                                    </td>
+
+
+                                </td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div>
+                                 }   
+
+</li>
+   
+            <li style="top:27px;"><input style="background-color:#00a0d1;color:white" type="button" value="Tweetle" class="btn btn-default" onclick="location.href='@Url.Action("tweet_gonder", "Home")'"></input></li>
+            @*<li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>*@
+        </ul>
+            }

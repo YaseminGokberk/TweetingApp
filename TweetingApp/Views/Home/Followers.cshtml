@@ -1,0 +1,99 @@
+﻿@model TweetingApp.Models.AnasayfaModel
+@{
+    ViewBag.Title = " " + Model.User.Name + " (@" + Model.User.ScreenName + ") | Twitter Takipçileri"; ;
+}
+
+<br />
+<div class="row">
+    <br />
+    @*1.Sutun*@
+    <div class="col-xs-6 col-lg-3" style="background-color:white">
+
+        <div class="list-group" style="background-color:white">
+            <center>
+                <table>
+                    <tr>
+                        <div class="flex-module-header;list-group-item;form-inline">
+                            <br />
+                            <span class="trend-location js-trend-location" style="font-size:18px">Gündem</span>
+                            <span class="middot" area-hidden="true">.</span>
+
+
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:13px"> Degistir</span></span>
+                            </a>
+                        </div>
+                    </tr>
+                </table>
+            </center>
+
+       </div>
+    @foreach (Tweetinvi.Models.ITrend item in Model.Trendler)
+        {
+
+
+            <a href="/Home/Gundem?query=@item.Query" class="list-group-item" style="border-style:none;font-style:unset;font-family:'Arial Rounded MT'; color:#00a0d1">
+                <b>@item.Name</b>
+                @item.PromotedContent
+            </a>
+
+        }
+    </div>
+
+    @*2.sutun*@
+
+    <div class="col-xs-6 col-lg-9">
+
+
+
+
+
+        @foreach (Tweetinvi.Models.IUser item in Model.Followers)
+        {
+
+            <div class="col-xs-6 col-md-4">
+                <div class="well" style="width:250px;height:350px">
+
+                    <img src="@item.ProfileBannerURL" class="img-rounded" width="208" height="100"></img>
+                    <a href="#"> <img class="img-circle" src="@item.ProfileImageUrl" data-holder-rendered="true" style="width:70px;height:70px;position:absolute;top:75px;left:50px" usemap="#planetmap"></a>
+                    <br /><br /><br />
+                    <a href="/Home/Profil/@item.ScreenName"><button  class="list-group-item;form-inline"  style="border-style:none;background-color :transparent;color:black;font-size:16px;border-style:none"><b>@item.Name</b></button></a>
+                    <a href="/Home/Profil/@item.ScreenName"> <button class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item.ScreenName</button></a>
+                    <label  class="list-group-item" style="border-style:none; background-color:transparent;font-size:11px;border-style:none">@item.Description</label>
+                    <style>
+                    button .bt_takip 
+                    { 
+                        width: 6em }
+                    button:hover .bt_takip 
+                    {
+                        display:none}
+                    button:before .bt_takip 
+                    { 
+                        width: 100px; content: "Takip ediliyor"; }
+                    button:hover:before .bt_takip 
+                    {
+                        content: "Takibi bırak";}
+                                
+                     </style>
+                    <button type="button" class="bt_takip" class="btn btn-default" @*@(item.Following?"info":"default")*@ onclick="SendRequest('@Url.Action("takip_kontrol","Home")',{friendId:'@item.Id'})"style="font-style:unset;font-family:'Arial Rounded MT'"></button>
+
+
+                   
+                    
+                </div>
+            </div>
+
+
+
+        }
+
+
+    </div>
+
+</div>
+
+
+
+
+
+

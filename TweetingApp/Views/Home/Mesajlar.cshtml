@@ -1,0 +1,238 @@
+﻿@model TweetingApp.Models.AnasayfaModel
+@{
+    ViewBag.Title = "Twitter / Mesajlar";
+}
+<br />
+<div class="row">
+    <br />
+    @*1.Sutun*@
+   
+    
+    <div class="col-xs-3" style="background-color:white">
+        
+        <div class="list-group" style="background-color:white">
+            <center>
+                <table>
+                    <tr>
+                        <div class="flex-module-header;list-group-item;form-inline">
+                            <br />
+                            <span class="trend-location js-trend-location" style="font-size:18px">Gündem</span>
+                            <span class="middot" area-hidden="true">.</span>
+
+
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:13px"> Degistir</span></span>
+                            </a>
+                        </div>
+                    </tr>
+                </table>
+            </center>
+
+        </div>
+
+        @foreach (Tweetinvi.Models.ITrend item in Model.Trendler)
+        {   
+
+
+            <a href="/Home/Gundem?query=@item.Query" class="list-group-item" style="border-style:none;font-style:unset;font-family:'Arial Rounded MT'; color:#00a0d1">
+                <b>@item.Name</b>
+                @item.PromotedContent
+            </a>
+               
+            
+            
+        }
+    </div>
+
+
+
+
+    @*2.sutun*@
+
+    <div class="col-xs-6">
+        
+        <div class="well well-sm" style="background-color:white">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+            <div class="w3-bar w3-blue">
+                <button class="w3-bar-item w3-button" onclick="openCity('Mesajgonder')">Mesaj Gönder</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('GelenKutusu')">Gelen Kutusu</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('GidenMesajlar')">Gönderilen Mesajlar</button>
+            </div>
+
+            <div id="Mesajgonder" class="w3-container city">
+                <br />
+             
+  @using (Html.BeginForm("Mesajlar", "Home"))
+  {
+                <div>
+        <div>
+                            <text>Kullanıcı Adı</text>
+                            @Html.TextBox("scname", null, new { @class = "form-control" })
+                                @*<input type="text" class="form-control" id="inputPassword3" placeholder="Bir isim gir" >*@
+                        </div>
+
+                        <div>
+                            <br />
+                            <text>Mesajınız</text>
+                            @Html.TextArea("mesaj", null, new { @class = "form-control" })
+                       </div>
+
+                        <br />
+                            <div>
+                                <button type="submit" class="btn btn-default" onclick="SendRequest('@Url.Action("mesaj_gonder","Home")',{scname:'@Model.User.ScreenName',mesaj:'@Model.User.Name'})">Gönder</button>
+                            </div>
+
+        </div>
+        }
+            </div>
+
+            <div id="GelenKutusu" class="w3-container city" style="display:none">
+                <br />
+                <h2 style="font-size:24px">Gelen Kutusu</h2>
+                @foreach (var item in Model.Mesaj_gelen)
+                {  <form class="form-inline" style="background-color:white">
+
+
+                    <div class="form-group">
+                        <a href="Home/Profil/@item.SenderScreenName"> <img data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 60px; height: 60px;" src="@item.Sender.ProfileImageUrl" data-holder-rendered="true"></a>
+                        
+                    </div>
+                    <div class="form-group">
+                        <div class="list-group" style="font-size:10px;">
+                            <br />
+                            <a href="" style="background-color:transparent;color:black;font-size:15px">@item.Sender.Name</a>
+                            <text style="background-color:transparent;color:lightslategray;font-size:13px">@item.Sender.ScreenName</text>&nbsp;
+                            <a href="#" style="background-color:white  ;border-style:none; font-size:9px"> &nbsp;@item.CreatedAt</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="submit"  class="btn btn-default" onclick="SendRequest('@Url.Action("mesaj_sil","Home")',{mesajId:'@item.Id'})" style="font-style:unset;font-family:'Arial Rounded MT'">Mesajı sil</button>
+                        </div>
+
+                    </div>
+                    <div>
+                        <br />
+                        <text style="font-size:15px">&nbsp;@item.Text</text>
+                      
+
+                    </div>
+                <hr />
+                </form>
+                }
+            </div>
+
+            <div id="GidenMesajlar" class="w3-container city" style="display:none">
+                <br />
+                <h2 style="font-size:24px;font-style:">Gönderilen Mesajlar</h2>
+                @foreach (var item in Model.Mesaj_giden)
+                {  <form class="form-inline" style="background-color:white">
+
+
+                    <div class="form-group">
+                        <a href="Home/Profil/@item.Recipient.ScreenName"> <img data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 60px; height: 60px;" src="@item.Sender.ProfileImageUrl" data-holder-rendered="true"></a>
+                        
+                    </div>
+                    <div class="form-group">
+                        <div class="list-group" style="font-size:10px;">
+                            <br />
+                            <a href="" style="background-color:transparent;color:black;font-size:15px">@item.Sender.Name</a>
+                            <text style="background-color:transparent;color:lightslategray;font-size:13px">@item.Sender.ScreenName</text>&nbsp;
+                            <a href="#" style="background-color:white  ;border-style:none; font-size:9px"> &nbsp;@item.CreatedAt</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="submit" class="btn btn-default" onclick="SendRequest('@Url.Action("mesaj_sil","Home")',{mesajId:'@item.Id'})" style="font-style:unset;font-family:'Arial Rounded MT'">Mesajı sil</button>
+                        </div>
+
+                    </div>
+
+                       <div style="width:422px;">
+                           <br />
+                           <text style="font-size:15px">&nbsp;@item.Text </text>
+                           <br /><br />
+
+                           <div class="well-sm" style="background-color:lightblue">
+
+                               <div>
+                                   <text style="font-size:12px;">Gönderdiğiniz kullanıcı: </text><br />
+                                   <a href="Home/Profil/@item.Recipient.ScreenName" style="font-size:10px">
+                                       <img data-src="holder.js/140x140" class="img-circle" alt="140x140" style="width: 40px; height: 40px;" src="@item.Recipient.ProfileImageUrl" data-holder-rendered="true" />
+                                       @item.RecipientScreenName
+                                   </a>
+                               </div>
+                               
+                           </div>
+                       </div>
+                <hr />
+                </form>
+
+                }
+        
+            </div>
+
+            <script>
+    function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+}
+            </script>
+        </div>
+
+    </div>
+
+
+
+
+    @*3.sutun*@
+
+    <div class="col-xs-3" style="background-color:white">
+      
+        <div class="well well-xs" style="background-color:white;border-style:none">
+            <div class="list-group" style="font-style:unset;font-family:'Arial Rounded MT'">
+                <table>
+                    <tr>
+                        <div class="flex-module-header;list-group-item;form-inline">
+                            <span class="trend-location js-trend-location" style="font-size:18px">
+                                Kimi Takip Etmeli
+                            </span>
+                            <span class="middot" area-hidden="true">.</span>
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:11px">Yenile</span></span>
+                            </a>
+                            <span class="middot" area-hidden="true">.</span>
+                            <a role="button" herf="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
+                                <span aria-hidden="true" style="font-size:11px">Tümünü Görüntüle</span></span>
+                            </a>
+                        </div>
+                    </tr>
+                </table>
+                <a href="#"> <img class="img-circle" src="https://pbs.twimg.com/profile_images/646646948909314048/VuoLn4Zz_400x400.jpg" data-holder-rendered="true" style="width:45px;height:45px;position:absolute;top:75px;left:45px" usemap="#planetmap"></a>
+                <br /><br /><br />
+                <a href="/Home/Profil/Jenna_Coleman_" class="list-group-item;form-inline" style="background-color :transparent;color:black;font-size:10px;border-style:none;position:absolute;top:75px;left:95px;"><b>Jenna Coleman</b></a>
+                <a href="/Home/Profil/Jenna_Coleman_" class="list-group-item" style="background-color:transparent;font-size:9px;border-style:none;position:absolute;top:66px;left:160px;">Jenna_Coleman_</a>
+                <button type="button" class="btn btn-default" style="width:78px;height:30px;'Arial Rounded MT';background-color:white;color:#00a0d1;position:absolute;right:150px;">Takip et</button>
+
+                <br /> <hr />
+                <a href="#"> <img class="img-circle" src="https://pbs.twimg.com/profile_images/839209176970616832/iUmbK0cK_400x400.jpg" data-holder-rendered="true" style="width:45px;height:45px;position:absolute;top:180px;left:45px" usemap="#planetmap"></a>
+                <br /><br /><br />
+                <a href="/Home/Profil/Jenna_Coleman_" class="list-group-item;form-inline" style="background-color :transparent;color:black;font-size:10px;border-style:none;position:absolute;top:190px;left:95px;"><b>Karen Gillan</b></a>
+                <a href="/Home/Profil/karengillan" class="list-group-item" style="background-color:transparent;font-size:9px;border-style:none;position:absolute;top:181px;left:145px;">karengillan</a>
+                <button type="button" class="btn btn-default" style="width:78px;height:30px;'Arial Rounded MT';background-color:white;color:#00a0d1;position:absolute;top:235px;right:150px">Takip et</button>
+                <br /> <hr />
+
+                <a href="#"> <img class="img-circle" src="https://pbs.twimg.com/profile_images/880055370315689984/xwczwHdb_400x400.jpg" data-holder-rendered="true" style="width:45px;height:45px;position:absolute;top:305px;left:45px" usemap="#planetmap"></a>
+                <br /><br /><br />
+                <a href="/Home/Profil/ithakiyayinlari" class="list-group-item;form-inline" style="background-color :transparent;color:black;font-size:10px;border-style:none;position:absolute;top:315px;left:95px;"><b>İthaki Yayınları</b></a>
+                <a href="/Home/Profil/ithakiyayinlari" class="list-group-item" style="background-color:transparent;font-size:9px;border-style:none;position:absolute;top:305px;left:160px;">ithakiyayinlari</a>
+                <button type="button" class="btn btn-default" style="width:78px;height:30px;'Arial Rounded MT';background-color:white;color:#00a0d1;position:absolute;right:150px; top:350px">Takip et</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+</div>
+

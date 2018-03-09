@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <meta name="msapplication-TileImage" content="//abs.twimg.com/favicons/win8-tile-144.png" />
+    <meta name="msapplication-TileColor" content="#00aced" />
+    <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1500372301/img/t1/favicon.svg" color="#1da1f2">
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/favicon.ico" type="image/x-icon">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body style="background-color:#cee1e8">
+    <div class="navbar navbar-inverse navbar-fixed-top " style="background-color:white">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              
+                    @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="color:#66757f;font-weight:bold">
+                    <br />
+                    <li style="font-size:14px">@Html.ActionLink("Anasayfa", "Anasayfa", "Home")<span class="glyphicon glyphicon-home" style="position:absolute;top:18px;left:-2px;color:#00a0d1"></span></li>
+                    <li style="font-size:14px">@Html.ActionLink("Bildirimler", "Bildirimler", "Home")<span class="glyphicon glyphicon-bell" style="position:absolute;top:18px;left:0px;color:#00a0d1"></span></li>
+                    <li style="font-size:14px">@Html.ActionLink("Mesajlar", "Mesajlar", "Home")<span class="glyphicon glyphicon-envelope" style="position:absolute;top:18px;left:-2px;color:#00a0d1"></span></li>
+                    <li style="font-size:14px">@Html.ActionLink("Profil", "Profil", "Home")<span class="glyphicon glyphicon-user" style="position:absolute;top:18px;left:0px;color:#00a0d1"></span></li>
+                   
+                    <li style="top:8px;left:190px"><img src="//abs.twimg.com/favicons/favicon.ico" alt="Twitter" ></img></li>
+                    &nbsp; &nbsp;
+
+                   
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        
+       
+        
+       
+        
+        <hr />
+        <footer>
+            
+            <p>&copy; @DateTime.Now.Year - TweetingApp</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/MyScript.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
