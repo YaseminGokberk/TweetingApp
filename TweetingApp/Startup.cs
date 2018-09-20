@@ -11,7 +11,7 @@ namespace TweetingApp
       
         public void Configuration(IAppBuilder app)
         {
-            Auth.SetUserCredentials("CEu1Zg6jJuw7SLxoiF2wXKrQZ", "K572O5WNZywIYtOrWbivf21v1q4M5o8Zzvl2FqveuWuSLsFGlB", "884304411257864192-XcZRVNr3RwwswTNDj7eXCqG1CeL8TqF", "NTGVpMpMJLqPwcppndAIHIBLPtkNGb0mLL35UABZ5VAxo");
+            Auth.SetUserCredentials("parameter1", "parameter2", "parameter3", "parameter4");
             var user = User.GetAuthenticatedUser();
 
                               
